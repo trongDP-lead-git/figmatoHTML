@@ -16,6 +16,15 @@ body {
   font-family: "Inter", sans-serif;
 }
 /* =================common=============== */
+
+.heading-lv2 {
+  color: #171100;
+  font-family: var(---font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.27;
+  letter-spacing: -0.76px;
+}
 a {
   text-decoration: none;
 }
@@ -259,4 +268,51 @@ a {
 
 .hero .stats strong:nth-child(2) {
   margin-left: 28px;
+}
+
+/* popular */
+.popular {
+  padding: 65px 0px;
+  margin-top: 135px;
+}
+
+.popular-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular-top .controls {
+  display: flex;
+  gap: 18px;
+}
+.popular-top .control-btn {
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.popular-top .control-btn:nth-child(2) {
+  color: white;
+  background-color: var(--primary-color);
+}
+.popular-top .desc {
+  margin-top: 16px;
+  width: 458px;
+  font-size: 1.8rem;
+  line-height: 1.67;
+}
+
+.popular-top .control-btn:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+.popular-top .control-btn:nth-child(2):hover {
+  background-color: white;
+  color: var(--primary-color);
 }
